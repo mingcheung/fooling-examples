@@ -1,5 +1,5 @@
 ## About
-PyTorch code for our paper: **Specious Examples: Another Intriguing Property of Neural Networks**.
+PyTorch code for our paper: **Fooling Examples: Another Intriguing Property of Neural Networks**.
 <br> Ming Zhang, Yongkang Chen, Cheng Qian.
 
 
@@ -12,11 +12,11 @@ The 1000 images from the NIPS 2017 ImageNet-Compatible dataset are provided in t
 ### Evaluation
 ```gen_initial_images.py```: Generate initial images, including random Gaussian noised, random uniform noised, all-white and all-black images. 
 
-```eval_single.py```: Generate specious examples on a single model.
+```eval_single.py```: Generate fooling examples on a single model.
 
-```eval_ensemble.py```: Generate specious examples on an ensemble of models. 
+```eval_ensemble.py```: Generate fooling examples on an ensemble of models. 
 
-```cal_succ_rate```: Calculate the accuracy of specious or normal examples. 
+```cal_succ_rate```: Calculate the accuracy of fooling or normal examples. 
 
 ```plot_figures.py```: Plot figures in experiments.
 
